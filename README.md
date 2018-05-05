@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-# Form
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-
-=======
 # SignUp-Login-forms
 A sample signup and login form using Angular 2. This project is like my "Hello World" in Angular 2.
 
@@ -43,4 +33,4 @@ Things I have missed are: form validation.
 >{{ }} - interpolation
 
 >\* - structural directives
->>>>>>> 1207ac3cf4198a351218deb80c8ce5a7ec260df5
+
