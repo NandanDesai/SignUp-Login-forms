@@ -1,0 +1,23 @@
+<form (ngSubmit)="onFormSubmit(signupForm)" #signupForm="ngForm" class="w3-container w3-card-4">
+    <h2 class="w3-text-teal">Sign Up!</h2>
+    <div class="w3-container">
+        <p>
+            <label class="w3-text-teal"><b>First Name</b></label>
+            <input ngModel name="first" class="w3-input w3-border" name="first" type="text"></p>
+        <p>
+            <label class="w3-text-teal"><b>Last Name</b></label>
+            <input ngModel name="last" class="w3-input w3-border" name="last" type="text"></p>
+        <p>
+            <label class="w3-text-teal"><b>Password</b></label>
+            <input ngModel name="pass" class="w3-input w3-border" name="pass" type="password"></p>
+        <p>
+            <label class="w3-text-teal"><b>Confirm Password</b></label>
+            <input ngModel name="con_pass" class="w3-input w3-border" name="con_pass" type="password"></p>
+        <p>
+            <label class="w3-text-teal"><b>Email</b></label>
+            <input ngModel name="email" class="w3-input w3-border" name="email" type="email"></p>
+        <p>
+
+            <button type="submit" class="w3-btn w3-teal">Register</button></p>
+    </div>
+</form>

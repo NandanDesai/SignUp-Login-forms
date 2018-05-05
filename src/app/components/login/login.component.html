@@ -1,0 +1,11 @@
+<form (ngSubmit)="onFormSubmit(loginForm)" #loginForm="ngForm" class="w3-container w3-card-4">
+    <h2 class="w3-text-teal">Log In!</h2>
+    <p>
+        <label class="w3-text-teal"><b>Email</b></label>
+        <input ngModel name="email" class="w3-input w3-border" name="email" type="email"></p>
+    <p>
+        <label class="w3-text-teal"><b>Password</b></label>
+        <input ngModel name="pass" class="w3-input w3-border" name="pass" type="password"></p>
+    <p>
+        <button class="w3-btn w3-teal">Login</button></p>
+</form>
